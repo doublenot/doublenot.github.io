@@ -1,3 +1,4 @@
 README.txt
 sass/
 *.psd
+.sass-cache

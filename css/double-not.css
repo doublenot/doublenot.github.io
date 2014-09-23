@@ -23,6 +23,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.dn-icon-logo:before {
+.dn-icon-version:before {
   content: "\f000";
+}
+.dn-icon-logo:before {
+  content: "\f001";
+}
+.dn-icon-element:before {
+  content: "\f002";
 }

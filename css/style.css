@@ -538,8 +538,7 @@ input[type="button"],
   padding: 10em 0 20em 0;
   position: relative;
   text-align: center; }
-  /*#header:before, #header:after {*/
-  #header:before {
+  /*#header:before, #header:after {
     background: rgba(224, 224, 224, 0.75);
     content: '';
     left: 50%;
@@ -552,7 +551,7 @@ input[type="button"],
     top: 0; }
   #header:after {
     bottom: 0;
-    height: 50px; }
+    height: 50px; }*/
   #header a {
     border-bottom-color: rgba(255, 255, 255, 0.35);
     color: rgba(255, 255, 255, 0.8); }

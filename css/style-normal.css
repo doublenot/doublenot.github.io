@@ -25,7 +25,7 @@ header.major {
     font-size: 1.15em; }
 
 footer.major {
-  margin-top: 4em;
+  /*margin-top: 4em;*/
   padding: 3em 0; }
 
 /* Box */
@@ -41,21 +41,21 @@ footer.major {
 
 /* Header */
 #header {
-  padding: 6em 0 12em 0; }
+  padding: 5em 0 6em 0; }
   #header:before {
     height: calc(100% - 25px); }
-  #header:after {
-    height: 25px; }
+  /*#header:after {
+    height: 25px; }*/
   #header h1 {
     font-size: 2em; }
   #header p {
     font-size: 1.15em; }
 
 /* Footer */
-#footer {
+/*#footer {
   padding: 4em 0 6em 0; }
   #footer:before {
-    height: 4em; }
+    height: 4em; }*/
 
 /* Main */
 #main {

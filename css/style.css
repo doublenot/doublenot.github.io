@@ -147,23 +147,23 @@ header {
 footer {
   text-align: center; }
   footer.major {
-    border-bottom-width: 1px;
-    border-color: rgba(224, 224, 224, 0.75);
-    border-style: solid;
-    border-top-width: 1px;
-    margin-top: 6em;
+    /*border-bottom-width: 1px;*/
+    /*border-color: rgba(224, 224, 224, 0.75);*/
+    /*border-style: solid;*/
+    /*border-top-width: 1px;*/
+    /*margin-top: 6em;*/
     padding: 4em 0;
     position: relative; }
-    footer.major:before, footer.major:after {
+    /*footer.major:before, footer.major:after {
       background: rgba(224, 224, 224, 0.75);
       content: '';
       display: block;
       height: 1px;
       left: 0;
       position: absolute;
-      width: 100%; }
-    footer.major:before {
-      top: 10px; }
+      width: 100%; }*/
+    /*footer.major:before {
+      top: 10px; }*/
     footer.major:after {
       bottom: 10px; }
 
@@ -538,7 +538,8 @@ input[type="button"],
   padding: 10em 0 20em 0;
   position: relative;
   text-align: center; }
-  #header:before, #header:after {
+  /*#header:before, #header:after {*/
+  #header:before {
     background: rgba(224, 224, 224, 0.75);
     content: '';
     left: 50%;
@@ -577,7 +578,7 @@ input[type="button"],
     color: #f8f8f8;
     cursor: default;
     display: inline-block;
-    font-size: 5.25em;
+    font-size: 8.25em;
     height: 1em;
     line-height: 1em;
     margin: 0 0 0.25em 0;
@@ -603,10 +604,10 @@ input[type="button"],
   	add additional top padding (to move our content out of its way)
   	and a negative margin (to move everything up a bit).
   */
-  padding: 6em 0 10em 0;
+  padding: 6em 0 7em 0;
   position: relative;
   text-align: center; }
-  #footer:before {
+  /*#footer:before {
     background: rgba(224, 224, 224, 0.75);
     content: '';
     height: 6em;
@@ -614,7 +615,7 @@ input[type="button"],
     position: absolute;
     top: 0;
     width: 1px;
-    z-index: 0; }
+    z-index: 0; }*/
   #footer a {
     color: #f8f8f8; }
   #footer strong, #footer b {

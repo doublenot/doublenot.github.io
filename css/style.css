@@ -605,7 +605,10 @@ input[type="button"],
   	and a negative margin (to move everything up a bit).
   */
   padding: 6em 0 7em 0;
-  position: relative;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
   text-align: center; }
   /*#footer:before {
     background: rgba(224, 224, 224, 0.75);
